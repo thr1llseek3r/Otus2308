@@ -11,6 +11,9 @@
 		A58E843A2AA1DA4700CDA4B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84392AA1DA4700CDA4B2 /* ContentView.swift */; };
 		A58E843C2AA1DA4800CDA4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */; };
 		A58E843F2AA1DA4800CDA4B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58E843E2AA1DA4800CDA4B2 /* Preview Assets.xcassets */; };
+		A58E84462AA1DCD400CDA4B2 /* DashboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84452AA1DCD400CDA4B2 /* DashboardScreen.swift */; };
+		A58E84482AA1DCD900CDA4B2 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84472AA1DCD900CDA4B2 /* ProfileScreen.swift */; };
+		A58E844A2AA1DCDE00CDA4B2 /* FoodScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84492AA1DCDE00CDA4B2 /* FoodScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A58E84392AA1DA4700CDA4B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A58E843E2AA1DA4800CDA4B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A58E84452AA1DCD400CDA4B2 /* DashboardScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardScreen.swift; sourceTree = "<group>"; };
+		A58E84472AA1DCD900CDA4B2 /* ProfileScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		A58E84492AA1DCDE00CDA4B2 /* FoodScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				A58E84372AA1DA4700CDA4B2 /* Otus2308App.swift */,
 				A58E84392AA1DA4700CDA4B2 /* ContentView.swift */,
+				A58E84452AA1DCD400CDA4B2 /* DashboardScreen.swift */,
+				A58E84472AA1DCD900CDA4B2 /* ProfileScreen.swift */,
+				A58E84492AA1DCDE00CDA4B2 /* FoodScreen.swift */,
 				A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */,
 				A58E843D2AA1DA4800CDA4B2 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58E844A2AA1DCDE00CDA4B2 /* FoodScreen.swift in Sources */,
 				A58E843A2AA1DA4700CDA4B2 /* ContentView.swift in Sources */,
 				A58E84382AA1DA4700CDA4B2 /* Otus2308App.swift in Sources */,
+				A58E84462AA1DCD400CDA4B2 /* DashboardScreen.swift in Sources */,
+				A58E84482AA1DCD900CDA4B2 /* ProfileScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
