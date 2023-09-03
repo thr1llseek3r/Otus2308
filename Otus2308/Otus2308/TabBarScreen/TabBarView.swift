@@ -8,6 +8,12 @@
 import SwiftUI
 import Combine
 
+enum TabBarIndex: Int {
+    case profile = 0
+    case menu
+    case cart
+}
+
 struct TabBarView: View {
     @StateObject private var viewModel = TabViewModel()
     
@@ -25,20 +31,21 @@ struct TabBarView: View {
                     Text("Профиль")
                 }
                 .environmentObject(viewModel)
-                .tag(0)
+                .tag(TabBarIndex.profile.rawValue)
             
             MenuScreen()
                 .tabItem {
                     Image(systemName: "menucard")
                     Text("Меню")
                 }
-                .tag(1)
+                .tag(TabBarIndex.menu.rawValue)
             
             CartScreen()
                 .tabItem {
                     Image(systemName: "basket")
                     Text("Корзина")
                 }
+                .tag(TabBarIndex.cart.rawValue)
         }
         .onAppear() {
             setupUI()

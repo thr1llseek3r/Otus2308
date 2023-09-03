@@ -8,8 +8,26 @@
 import SwiftUI
 
 struct ProfileScreen: View {
+    @EnvironmentObject var tabViewModel: TabViewModel
+    
     var body: some View {
-        Text("Hello, Profile!")
+        VStack {
+            Text("Отсутствуют данные профиля")
+                .padding(.bottom, 20)
+            
+            Button {
+                tabViewModel.tabIndex = TabBarIndex.menu.rawValue
+            } label: {
+                Text("Перейти к меню")
+                    .font(.system(size: 20, weight: .semibold))
+            }
+            .frame(width: 300,
+                   height: 50,
+                   alignment: .center)
+            .foregroundColor(Color.white)
+            .background(.red)
+            .cornerRadius(12)
+        }
     }
 }
 

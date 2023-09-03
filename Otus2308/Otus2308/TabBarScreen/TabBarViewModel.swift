@@ -8,5 +8,5 @@
 import Combine
 
 final class TabViewModel: ObservableObject {
-    @Published var tabIndex = 0
+    @Published var tabIndex = TabBarIndex.profile.rawValue
 }
