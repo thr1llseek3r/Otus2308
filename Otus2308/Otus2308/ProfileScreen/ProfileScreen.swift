@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct ProfileScreen: View {
-    @EnvironmentObject var tabViewModel: TabViewModel
-    
     var body: some View {
         VStack {
             Text("Отсутствуют данные профиля")
                 .padding(.bottom, 20)
             
             Button {
-                tabViewModel.tabIndex = TabBarIndex.menu.rawValue
+                mainCoordinator.tabIndex = TabBarIndex.menu.rawValue
+                mainCoordinator.isPresentedNowProduct = true
             } label: {
                 Text("Перейти к меню")
                     .font(.system(size: 20, weight: .semibold))
@@ -29,6 +28,8 @@ struct ProfileScreen: View {
             .cornerRadius(12)
         }
     }
+    
+    @EnvironmentObject private var mainCoordinator: MainCoordinatorManager
 }
 
 struct ProfileScreen_Previews: PreviewProvider {

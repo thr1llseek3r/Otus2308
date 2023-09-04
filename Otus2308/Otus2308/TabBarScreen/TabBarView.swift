@@ -15,12 +15,13 @@ enum TabBarIndex: Int {
 }
 
 struct TabBarView: View {
+    @EnvironmentObject private var mainCoordinator: MainCoordinatorManager
     @StateObject private var viewModel = TabViewModel()
     
     var body: some View {
         TabView(selection: Binding(
             get: {
-                index
+                viewModel.tabIndex
             }, set: { newValue in
                 viewModel.tabIndex = newValue
             }
@@ -47,32 +48,12 @@ struct TabBarView: View {
                 }
                 .tag(TabBarIndex.cart.rawValue)
         }
-        .onAppear() {
-            setupUI()
-            setupBindings()
-        }
+        .onReceive(mainCoordinator.$tabIndex, perform: { index in
+            viewModel.tabIndex = index
+        })
         .accentColor(.orange)
     }
     
-    private func setupUI() {
-        //NOTE: Implement UITabBar.appearance()
-//        let tabBarAppearance =  UITabBar.appearance()
-//        tabBarAppearance.backgroundColor = .black.withAlphaComponent(0.90)
-//        tabBarAppearance.unselectedItemTintColor = .lightGray
-    }
-    
-    private func setupBindings() {
-        viewModel.$tabIndex
-            .handleEvents( receiveOutput: { index in
-                print(">>>>>> index - \(index)")
-            })
-            .sink { currentIndex in
-                index = currentIndex
-            }
-            .store(in: &self.cancelBag.cancellables)
-    }
-    
-    @State private var index = 0
     private var cancelBag = CancellableSetWrapper()
 }
 

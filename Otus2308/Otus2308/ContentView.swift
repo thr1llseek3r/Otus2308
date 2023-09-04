@@ -9,8 +9,10 @@ import SwiftUI
 import Combine
 
 struct ContentView: View {
+    @StateObject private var mainCoordinator = MainCoordinatorManager()
     var body: some View {
         TabBarView()
+            .environmentObject(mainCoordinator)
     }
 }
 

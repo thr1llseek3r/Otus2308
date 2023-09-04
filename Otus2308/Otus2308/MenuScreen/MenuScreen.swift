@@ -15,8 +15,6 @@ struct ProductScreen: View {
 }
 
 struct MenuScreen: View {
-    @StateObject var viewModel = MenuViewModelScreen()
-    
     var body: some View {
         NavigationView {
             List {
@@ -25,12 +23,34 @@ struct MenuScreen: View {
                         ForEach(0..<viewModel.products.count, id: \.self) { index in
                             let product = viewModel.products[index]
                             if kind == product.kind {
-                                NavigationLink(destination: ProductScreen(product: product)) {
+                                NavigationLink(
+                                    destination: ProductScreen(product: product),
+                                    tag: product.name,
+                                    selection: Binding(
+                                        get: {
+                                            selector
+                                        }, set: { value in
+                                            selector = value ?? ""
+                                        }
+                                    )
+                                ) {
                                     HStack {
                                         Text(product.name)
                                             .font(.system(size: 16))
                                         Spacer()
                                         Text(product.smileText)
+                                    }
+                                }
+                                .onAppear {
+                                    let randomIndex = Int.random(in: 0..<viewModel.products.count)
+                                    guard
+                                        mainCoordinator.isPresentedNowProduct,
+                                        viewModel.products.indices.contains(index)
+                                    else { return }
+                                    
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                                        self.selector = viewModel.products[index].name
+                                        self.mainCoordinator.isPresentedNowProduct.toggle()
                                     }
                                 }
                             }
@@ -47,6 +67,10 @@ struct MenuScreen: View {
             
         }
     }
+    
+    @EnvironmentObject private var mainCoordinator: MainCoordinatorManager
+    @ObservedObject private var viewModel = MenuViewModelScreen()
+    @State private var selector = ""
 }
 
 struct MenuScreen_Previews: PreviewProvider {

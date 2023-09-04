@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A576E4742AA6949400FA4815 /* MainCoordinatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576E4732AA6949400FA4815 /* MainCoordinatorManager.swift */; };
 		A58E84382AA1DA4700CDA4B2 /* Otus2308App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84372AA1DA4700CDA4B2 /* Otus2308App.swift */; };
 		A58E843A2AA1DA4700CDA4B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84392AA1DA4700CDA4B2 /* ContentView.swift */; };
 		A58E843C2AA1DA4800CDA4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A576E4732AA6949400FA4815 /* MainCoordinatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorManager.swift; sourceTree = "<group>"; };
 		A58E84342AA1DA4700CDA4B2 /* Otus2308.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus2308.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58E84372AA1DA4700CDA4B2 /* Otus2308App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus2308App.swift; sourceTree = "<group>"; };
 		A58E84392AA1DA4700CDA4B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				A5D7B95D2AA4A6C900E317EF /* MenuScreen */,
 				A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */,
 				A58E843D2AA1DA4800CDA4B2 /* Preview Content */,
+				A576E4732AA6949400FA4815 /* MainCoordinatorManager.swift */,
 			);
 			path = Otus2308;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				A5CF88862AA51EA400D6C445 /* CancellableSetWrapper.swift in Sources */,
 				A58E84382AA1DA4700CDA4B2 /* Otus2308App.swift in Sources */,
 				A5D7B9612AA4A97000E317EF /* MenuViewModelScreen.swift in Sources */,
+				A576E4742AA6949400FA4815 /* MainCoordinatorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
