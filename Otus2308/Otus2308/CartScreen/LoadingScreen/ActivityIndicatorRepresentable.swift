@@ -21,7 +21,6 @@ struct ActivityIndicatorRepresentable: UIViewRepresentable {
     //update SUI to UIKit
     func updateUIView(_ uiView: UIActivityIndicatorView, context: Context) {
         uiView.color = color
-       // context.coordinator.startAndStopActivity()
         isLoading ? uiView.startAnimating() : uiView.stopAnimating()
     }
     
