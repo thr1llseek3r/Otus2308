@@ -34,7 +34,7 @@ struct CartScreen: View {
             .cornerRadius(12)
             .padding(.bottom, 20)
             .sheet(isPresented: $isPresented) {
-                Text("Загрузка")
+                LoadingCartScreen()
             }
         }
         

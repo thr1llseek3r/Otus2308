@@ -63,9 +63,6 @@ struct MenuScreen: View {
             .navigationTitle("Меню")
             .navigationBarTitleDisplayMode(.inline)
         }
-        .onAppear {
-            
-        }
     }
     
     @EnvironmentObject private var mainCoordinator: MainCoordinatorManager

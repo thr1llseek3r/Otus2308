@@ -31,7 +31,6 @@ struct TabBarView: View {
                     Image(systemName: "person")
                     Text("Профиль")
                 }
-                .environmentObject(viewModel)
                 .tag(TabBarIndex.profile.rawValue)
             
             MenuScreen()
