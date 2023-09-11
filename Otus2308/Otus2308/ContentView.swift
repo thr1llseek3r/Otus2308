@@ -6,16 +6,13 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    @StateObject private var mainCoordinator = MainCoordinatorManager()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabBarView()
+            .environmentObject(mainCoordinator)
     }
 }
 
