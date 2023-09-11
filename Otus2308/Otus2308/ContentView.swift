@@ -21,8 +21,14 @@ struct ContentView: View {
                     Label("Dashboard", systemImage: "star")
                 }
             
-            ProfileScreen()
+            NewsScreen()
                 .tag(1)
+                .tabItem {
+                    Label("News", systemImage: "newspaper")
+                }
+            
+            ProfileScreen()
+                .tag(2)
                 .tabItem {
                     Label("Profile", systemImage: "person")
                 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51ADDE32AAF87A500EDE71F /* NewsapiNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = A51ADDE22AAF87A500EDE71F /* NewsapiNetworking */; };
+		A51ADDE52AAF8A9C00EDE71F /* NewsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51ADDE42AAF8A9C00EDE71F /* NewsScreen.swift */; };
 		A58E84382AA1DA4700CDA4B2 /* Otus2308App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84372AA1DA4700CDA4B2 /* Otus2308App.swift */; };
 		A58E843A2AA1DA4700CDA4B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84392AA1DA4700CDA4B2 /* ContentView.swift */; };
 		A58E843C2AA1DA4800CDA4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51ADDE12AAF879B00EDE71F /* NewsapiNetworking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NewsapiNetworking; sourceTree = SOURCE_ROOT; };
+		A51ADDE42AAF8A9C00EDE71F /* NewsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsScreen.swift; sourceTree = "<group>"; };
 		A58E84342AA1DA4700CDA4B2 /* Otus2308.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus2308.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58E84372AA1DA4700CDA4B2 /* Otus2308App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus2308App.swift; sourceTree = "<group>"; };
 		A58E84392AA1DA4700CDA4B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,17 +36,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51ADDE32AAF87A500EDE71F /* NewsapiNetworking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A54FC8532AAF802100597023 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A58E842B2AA1DA4700CDA4B2 = {
 			isa = PBXGroup;
 			children = (
 				A58E84362AA1DA4700CDA4B2 /* Otus2308 */,
+				A51ADDE12AAF879B00EDE71F /* NewsapiNetworking */,
 				A58E84352AA1DA4700CDA4B2 /* Products */,
+				A54FC8532AAF802100597023 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +76,8 @@
 				A58E84452AA1DCD400CDA4B2 /* DashboardScreen.swift */,
 				A58E84472AA1DCD900CDA4B2 /* ProfileScreen.swift */,
 				A58E84492AA1DCDE00CDA4B2 /* FoodScreen.swift */,
+				A51ADDE42AAF8A9C00EDE71F /* NewsScreen.swift */,
+				A5BBBB7F2AAA3DFD00235374 /* Features */,
 				A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */,
 				A58E843D2AA1DA4800CDA4B2 /* Preview Content */,
 			);
@@ -74,6 +90,13 @@
 				A58E843E2AA1DA4800CDA4B2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A5BBBB7F2AAA3DFD00235374 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +115,9 @@
 			dependencies = (
 			);
 			name = Otus2308;
+			packageProductDependencies = (
+				A51ADDE22AAF87A500EDE71F /* NewsapiNetworking */,
+			);
 			productName = Otus2308;
 			productReference = A58E84342AA1DA4700CDA4B2 /* Otus2308.app */;
 			productType = "com.apple.product-type.application";
@@ -148,6 +174,7 @@
 			files = (
 				A58E844A2AA1DCDE00CDA4B2 /* FoodScreen.swift in Sources */,
 				A58E843A2AA1DA4700CDA4B2 /* ContentView.swift in Sources */,
+				A51ADDE52AAF8A9C00EDE71F /* NewsScreen.swift in Sources */,
 				A58E84382AA1DA4700CDA4B2 /* Otus2308App.swift in Sources */,
 				A58E84462AA1DCD400CDA4B2 /* DashboardScreen.swift in Sources */,
 				A58E84482AA1DCD900CDA4B2 /* ProfileScreen.swift in Sources */,
@@ -351,6 +378,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A51ADDE22AAF87A500EDE71F /* NewsapiNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NewsapiNetworking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A58E842C2AA1DA4700CDA4B2 /* Project object */;
 }
