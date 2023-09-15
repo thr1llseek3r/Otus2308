@@ -7,36 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A58E84382AA1DA4700CDA4B2 /* Otus2308App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84372AA1DA4700CDA4B2 /* Otus2308App.swift */; };
-		A58E843A2AA1DA4700CDA4B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58E84392AA1DA4700CDA4B2 /* ContentView.swift */; };
-		A58E843C2AA1DA4800CDA4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */; };
-		A58E843F2AA1DA4800CDA4B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58E843E2AA1DA4800CDA4B2 /* Preview Assets.xcassets */; };
-		A5A8A8162AB43A9E0043E7FE /* BasicAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8A8152AB43A9E0043E7FE /* BasicAnimations.swift */; };
-		A5A8A8182AB444D90043E7FE /* SubviewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8A8172AB444D90043E7FE /* SubviewCircle.swift */; };
-		A5A8A81A2AB445440043E7FE /* MultiplineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8A8192AB445440043E7FE /* MultiplineAnimation.swift */; };
-		A5A8A81C2AB448010043E7FE /* Tuning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8A81B2AB448010043E7FE /* Tuning.swift */; };
-		A5A8A81E2AB44A2E0043E7FE /* WithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8A81D2AB44A2E0043E7FE /* WithAnimation.swift */; };
-		A5A8A8212AB44BF90043E7FE /* ShapeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8A8202AB44BF90043E7FE /* ShapeExample.swift */; };
-		A5A8A8232AB44C110043E7FE /* CustomCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8A8222AB44C110043E7FE /* CustomCircle.swift */; };
+		A521A6872AB43321001CD785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521A6862AB43321001CD785 /* AppDelegate.swift */; };
+		A521A6892AB43321001CD785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521A6882AB43321001CD785 /* SceneDelegate.swift */; };
+		A521A68B2AB43321001CD785 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521A68A2AB43321001CD785 /* ViewController.swift */; };
+		A521A68E2AB43321001CD785 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A521A68C2AB43321001CD785 /* Main.storyboard */; };
+		A521A6902AB43322001CD785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A521A68F2AB43322001CD785 /* Assets.xcassets */; };
+		A521A6932AB43322001CD785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A521A6912AB43322001CD785 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A58E84342AA1DA4700CDA4B2 /* Otus2308.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus2308.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A58E84372AA1DA4700CDA4B2 /* Otus2308App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otus2308App.swift; sourceTree = "<group>"; };
-		A58E84392AA1DA4700CDA4B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A58E843E2AA1DA4800CDA4B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A5A8A8152AB43A9E0043E7FE /* BasicAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimations.swift; sourceTree = "<group>"; };
-		A5A8A8172AB444D90043E7FE /* SubviewCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubviewCircle.swift; sourceTree = "<group>"; };
-		A5A8A8192AB445440043E7FE /* MultiplineAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplineAnimation.swift; sourceTree = "<group>"; };
-		A5A8A81B2AB448010043E7FE /* Tuning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuning.swift; sourceTree = "<group>"; };
-		A5A8A81D2AB44A2E0043E7FE /* WithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithAnimation.swift; sourceTree = "<group>"; };
-		A5A8A8202AB44BF90043E7FE /* ShapeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeExample.swift; sourceTree = "<group>"; };
-		A5A8A8222AB44C110043E7FE /* CustomCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircle.swift; sourceTree = "<group>"; };
+		A521A6832AB43321001CD785 /* Otus2308_les4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otus2308_les4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A521A6862AB43321001CD785 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A521A6882AB43321001CD785 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A521A68A2AB43321001CD785 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A521A68D2AB43321001CD785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A521A68F2AB43322001CD785 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A521A6922AB43322001CD785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A521A6942AB43322001CD785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A58E84312AA1DA4700CDA4B2 /* Frameworks */ = {
+		A521A6802AB43321001CD785 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,100 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A58E842B2AA1DA4700CDA4B2 = {
+		A521A67A2AB43321001CD785 = {
 			isa = PBXGroup;
 			children = (
-				A58E84362AA1DA4700CDA4B2 /* Otus2308 */,
-				A58E84352AA1DA4700CDA4B2 /* Products */,
+				A521A6852AB43321001CD785 /* Otus2308_les4 */,
+				A521A6842AB43321001CD785 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A58E84352AA1DA4700CDA4B2 /* Products */ = {
+		A521A6842AB43321001CD785 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A58E84342AA1DA4700CDA4B2 /* Otus2308.app */,
+				A521A6832AB43321001CD785 /* Otus2308_les4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A58E84362AA1DA4700CDA4B2 /* Otus2308 */ = {
+		A521A6852AB43321001CD785 /* Otus2308_les4 */ = {
 			isa = PBXGroup;
 			children = (
-				A5A8A81F2AB44BED0043E7FE /* CustomShape */,
-				A5A8A8142AB43A910043E7FE /* Animations */,
-				A58E84372AA1DA4700CDA4B2 /* Otus2308App.swift */,
-				A58E84392AA1DA4700CDA4B2 /* ContentView.swift */,
-				A58E843B2AA1DA4800CDA4B2 /* Assets.xcassets */,
-				A58E843D2AA1DA4800CDA4B2 /* Preview Content */,
+				A521A6862AB43321001CD785 /* AppDelegate.swift */,
+				A521A6882AB43321001CD785 /* SceneDelegate.swift */,
+				A521A68A2AB43321001CD785 /* ViewController.swift */,
+				A521A68C2AB43321001CD785 /* Main.storyboard */,
+				A521A68F2AB43322001CD785 /* Assets.xcassets */,
+				A521A6912AB43322001CD785 /* LaunchScreen.storyboard */,
+				A521A6942AB43322001CD785 /* Info.plist */,
 			);
-			path = Otus2308;
-			sourceTree = "<group>";
-		};
-		A58E843D2AA1DA4800CDA4B2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				A58E843E2AA1DA4800CDA4B2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A5A8A8142AB43A910043E7FE /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				A5A8A8152AB43A9E0043E7FE /* BasicAnimations.swift */,
-				A5A8A8172AB444D90043E7FE /* SubviewCircle.swift */,
-				A5A8A8192AB445440043E7FE /* MultiplineAnimation.swift */,
-				A5A8A81B2AB448010043E7FE /* Tuning.swift */,
-				A5A8A81D2AB44A2E0043E7FE /* WithAnimation.swift */,
-			);
-			path = Animations;
-			sourceTree = "<group>";
-		};
-		A5A8A81F2AB44BED0043E7FE /* CustomShape */ = {
-			isa = PBXGroup;
-			children = (
-				A5A8A8202AB44BF90043E7FE /* ShapeExample.swift */,
-				A5A8A8222AB44C110043E7FE /* CustomCircle.swift */,
-			);
-			path = CustomShape;
+			path = Otus2308_les4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A58E84332AA1DA4700CDA4B2 /* Otus2308 */ = {
+		A521A6822AB43321001CD785 /* Otus2308_les4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A58E84422AA1DA4800CDA4B2 /* Build configuration list for PBXNativeTarget "Otus2308" */;
+			buildConfigurationList = A521A6972AB43322001CD785 /* Build configuration list for PBXNativeTarget "Otus2308_les4" */;
 			buildPhases = (
-				A58E84302AA1DA4700CDA4B2 /* Sources */,
-				A58E84312AA1DA4700CDA4B2 /* Frameworks */,
-				A58E84322AA1DA4700CDA4B2 /* Resources */,
+				A521A67F2AB43321001CD785 /* Sources */,
+				A521A6802AB43321001CD785 /* Frameworks */,
+				A521A6812AB43321001CD785 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Otus2308;
-			productName = Otus2308;
-			productReference = A58E84342AA1DA4700CDA4B2 /* Otus2308.app */;
+			name = Otus2308_les4;
+			productName = Otus2308_les4;
+			productReference = A521A6832AB43321001CD785 /* Otus2308_les4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A58E842C2AA1DA4700CDA4B2 /* Project object */ = {
+		A521A67B2AB43321001CD785 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					A58E84332AA1DA4700CDA4B2 = {
-						CreatedOnToolsVersion = 14.2;
+					A521A6822AB43321001CD785 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = A58E842F2AA1DA4700CDA4B2 /* Build configuration list for PBXProject "Otus2308" */;
+			buildConfigurationList = A521A67E2AB43321001CD785 /* Build configuration list for PBXProject "Otus2308_les4" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,49 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = A58E842B2AA1DA4700CDA4B2;
-			productRefGroup = A58E84352AA1DA4700CDA4B2 /* Products */;
+			mainGroup = A521A67A2AB43321001CD785;
+			productRefGroup = A521A6842AB43321001CD785 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A58E84332AA1DA4700CDA4B2 /* Otus2308 */,
+				A521A6822AB43321001CD785 /* Otus2308_les4 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A58E84322AA1DA4700CDA4B2 /* Resources */ = {
+		A521A6812AB43321001CD785 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A58E843F2AA1DA4800CDA4B2 /* Preview Assets.xcassets in Resources */,
-				A58E843C2AA1DA4800CDA4B2 /* Assets.xcassets in Resources */,
+				A521A6932AB43322001CD785 /* LaunchScreen.storyboard in Resources */,
+				A521A6902AB43322001CD785 /* Assets.xcassets in Resources */,
+				A521A68E2AB43321001CD785 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A58E84302AA1DA4700CDA4B2 /* Sources */ = {
+		A521A67F2AB43321001CD785 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A8A81C2AB448010043E7FE /* Tuning.swift in Sources */,
-				A58E843A2AA1DA4700CDA4B2 /* ContentView.swift in Sources */,
-				A5A8A8232AB44C110043E7FE /* CustomCircle.swift in Sources */,
-				A5A8A8212AB44BF90043E7FE /* ShapeExample.swift in Sources */,
-				A5A8A8182AB444D90043E7FE /* SubviewCircle.swift in Sources */,
-				A5A8A81E2AB44A2E0043E7FE /* WithAnimation.swift in Sources */,
-				A58E84382AA1DA4700CDA4B2 /* Otus2308App.swift in Sources */,
-				A5A8A81A2AB445440043E7FE /* MultiplineAnimation.swift in Sources */,
-				A5A8A8162AB43A9E0043E7FE /* BasicAnimations.swift in Sources */,
+				A521A68B2AB43321001CD785 /* ViewController.swift in Sources */,
+				A521A6872AB43321001CD785 /* AppDelegate.swift in Sources */,
+				A521A6892AB43321001CD785 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		A521A68C2AB43321001CD785 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A521A68D2AB43321001CD785 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A521A6912AB43322001CD785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A521A6922AB43322001CD785 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		A58E84402AA1DA4800CDA4B2 /* Debug */ = {
+		A521A6952AB43322001CD785 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		A58E84412AA1DA4800CDA4B2 /* Release */ = {
+		A521A6962AB43322001CD785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -303,86 +280,92 @@
 			};
 			name = Release;
 		};
-		A58E84432AA1DA4800CDA4B2 /* Debug */ = {
+		A521A6982AB43322001CD785 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Otus2308/Preview Content\"";
 				DEVELOPMENT_TEAM = 6LDM57CVJ7;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Otus2308_les4/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OtusHomeWorks.Otus2308;
+				PRODUCT_BUNDLE_IDENTIFIER = "OtusHomeWorks.Otus2308-les4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		A58E84442AA1DA4800CDA4B2 /* Release */ = {
+		A521A6992AB43322001CD785 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Otus2308/Preview Content\"";
 				DEVELOPMENT_TEAM = 6LDM57CVJ7;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Otus2308_les4/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = OtusHomeWorks.Otus2308;
+				PRODUCT_BUNDLE_IDENTIFIER = "OtusHomeWorks.Otus2308-les4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A58E842F2AA1DA4700CDA4B2 /* Build configuration list for PBXProject "Otus2308" */ = {
+		A521A67E2AB43321001CD785 /* Build configuration list for PBXProject "Otus2308_les4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A58E84402AA1DA4800CDA4B2 /* Debug */,
-				A58E84412AA1DA4800CDA4B2 /* Release */,
+				A521A6952AB43322001CD785 /* Debug */,
+				A521A6962AB43322001CD785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A58E84422AA1DA4800CDA4B2 /* Build configuration list for PBXNativeTarget "Otus2308" */ = {
+		A521A6972AB43322001CD785 /* Build configuration list for PBXNativeTarget "Otus2308_les4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A58E84432AA1DA4800CDA4B2 /* Debug */,
-				A58E84442AA1DA4800CDA4B2 /* Release */,
+				A521A6982AB43322001CD785 /* Debug */,
+				A521A6992AB43322001CD785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A58E842C2AA1DA4700CDA4B2 /* Project object */;
+	rootObject = A521A67B2AB43321001CD785 /* Project object */;
 }
